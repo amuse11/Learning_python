@@ -1,3 +1,4 @@
+#Simple Python program that fetches the time from datetime and prints out the current time
 from datetime import datetime
 now = datetime.now()
 
