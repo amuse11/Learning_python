@@ -1,9 +1,10 @@
+#Simple program that converts the marks of an exam to a grade
 print ("How many marks did you get in this exam?")
 
 marks = input()
 
-if marks.isdigit():
-    marks = int(marks)
+if marks.isdigit():     #This will check if the input of marks is a digit, if not it will simply end the program with no result
+    marks = int(marks)  #This will convert the input of marks into integer form to allow boolean operators to compare
     if marks >= 80:
         print ("Congratulations! You got an A")
     elif marks >= 70:
