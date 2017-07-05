@@ -1,3 +1,4 @@
+#This is a simple program that allows the user to enter a radius for a sphere and output the surface area of that sphere using the radius that was input
 import math
 
 def area(r):
