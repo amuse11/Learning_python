@@ -13,7 +13,7 @@ if marks.isdigit():     #This will check if the input of marks is a digit, if no
         print ("You got a C")
     elif marks >= 50:
         print ("You got a D")
-    elif marks < 50 and marks > 0:
+    elif marks < 50 and marks >= 0:  #This will check if marks is less than 50, but also at least 0, as you cannot score less than 0 in an exam
         print ("Sadly, you have failed this exam")
 
 
